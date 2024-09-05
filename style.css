@@ -1,0 +1,36 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body{
+  background-color: white;
+  margin: auto;
+  
+}
+
+header{
+  background-color: black;
+  margin: auto;
+  padding: 20px;
+}
+
+header > h1{
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Passion One', cursive;
+  padding: 10px;
+
+
+}
+
+header > p{
+   
+  color: wheat;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+
