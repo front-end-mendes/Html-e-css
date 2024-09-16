@@ -2,35 +2,69 @@
   margin: 0px;
   padding: 0px;
 }
+ 
 
-
-body{
-  background-color: white;
-  margin: auto;
-  
+html,body{
+  min-height: 100vh;
+  background-color:white ;
 }
 
 header{
   background-color: black;
-  margin: auto;
-  padding: 20px;
-}
-
-header > h1{
   color: white;
   text-align: center;
-  font-size: 100px;
-  font-family: 'Passion One', cursive;
-  padding: 10px;
-
-
 }
 
-header > p{
-   
-  color: wheat;
+header> h1{
+  padding-top: 50px;
+  font-variant: small-caps;
+}
+
+header> p{
+  padding-bottom: 50px;
+}
+
+header a, footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+header a:hover, footer a:hover{
+  text-decoration: none;
+}
+
+section{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 30px;
+}
+
+section.normal{
+  background-color: white;
+  color: black;
+}
+
+section.image{
+  background-color: gray;
+  color: white;
+}
+
+section.image> p{
+  width: 400px;
+  background-color: lightgray;
+}
+
+
+
+
+
+
+footer{
+  background-color: black;
+  color: white;
   text-align: center;
-  font-size: 25px;
-  padding-bottom: 5px;
+  padding: 10px;
 }
 
